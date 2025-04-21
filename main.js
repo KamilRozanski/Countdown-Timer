@@ -33,6 +33,6 @@ function updateCountdown() {
     `Do ${age} urodzin Alana zostało:`;
 }
 
-// pierwsze wywołanie i interwał co sekundę
+
 updateCountdown();
 setInterval(updateCountdown, 1000);
